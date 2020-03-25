@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+*{
+ box-sizing: border-box;
+ margin:0;
+ padding: 0px
+}
+body {
+    margin: 0px;
+    padding:0px;
+    background-color: #4F4F4F;
+    width:100%;
+    font-family: 'Baloo 2', cursive;
+    color: #ffff ;
+}
+.cabecario{
+    background-color:#696969;
+    height:60px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.info{
+    margin-top:160px ;
+    text-align: center;
+    text-transform: uppercase;
+}
+img {
+    opacity:55%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px ;
+}
