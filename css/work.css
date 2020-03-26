@@ -16,7 +16,7 @@ body {
 
 .img {  
     /*Paralax background faz toda a função imagem deve ser inserida no Css não no html*/
-    background-image: url("/model-perfil.jpg");    
+    background-image: url("../model-perfil.jpg");    
     /*background-attachment: fixed;*/
     background-position: center top;
     background-repeat:no-repeat;
