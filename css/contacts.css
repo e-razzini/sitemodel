@@ -51,9 +51,10 @@ body {
     background-size:cover;
     width:300px;
     height:300px;    
-    margin:-320px 0px 30px 930px;     
+    margin:-320px 0px 30px 900px;     
     opacity:55% ;      
     border-radius:50%;    
+    margin-right:25px;
 }
 /*end-imagens*/
 
@@ -151,7 +152,7 @@ li:hover{
     margin-left:2px;    
 }
 .col-lg-9 {
-    padding-left:5px;
+    padding-left:0px;
     padding-right: 0px;   
 }
 .col-lg-3 {
