@@ -22,7 +22,7 @@ img {
     width:800px;
     height:1200px ;
 }
-.carousel-slide{
+.carousel {
     margin:5px 0px 8px 0px;
     width:100%;    
     transition: transform 1s ease, opacity .5s ease-out;
@@ -66,4 +66,8 @@ a:hover {
 }
 .info_extra {
     font-family: 'Sintony', sans-serif;
+}
+.col-lg-9 {
+    margin:0px;
+    padding: 0px;
 }
