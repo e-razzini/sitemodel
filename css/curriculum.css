@@ -85,7 +85,7 @@ li:hover{
     margin-top:10px;
     text-align: center;   
     color:#58595a;
-    border:2px solid #1f2327 ;
+    border:2px solid #3b3d3f;
     font-family: 'Rufina', serif;
     margin-bottom:5px;
 }
@@ -93,7 +93,7 @@ li:hover{
     text-transform: uppercase;
 }
 .traso-vert{ 
-    background-color:#58595a; 
+    background-color:#3b3d3f; 
     width:2px;
     height:100%;
     float: right;

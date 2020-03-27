@@ -8,6 +8,9 @@ html {
 }
 body {   
     background-color:#212529;    
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
 }
 .info{  
     opacity:95%;
@@ -18,10 +21,8 @@ body {
     font-family: 'Montserrat', sans-serif; 
 }
 /*init-imagens*/
-.img {  
-    /*Paralax background faz toda a função imagem deve ser inserida no Css não no html*/
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/2/510/462/face-portrait-women-model-wallpaper-preview.jpg");    
-    /*background-attachment: fixed;*/
+.img {     
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/2/510/462/face-portrait-women-model-wallpaper-preview.jpg");       
     background-position: center top;
     background-repeat:no-repeat;
     background-size:cover;
@@ -32,8 +33,7 @@ body {
     border-radius:50%;
 }
 .img-2{
-    background-image: url("https://images3.alphacoders.com/696/thumb-1920-696515.jpg");    
-    /*background-attachment: fixed;*/
+    background-image: url("https://images3.alphacoders.com/696/thumb-1920-696515.jpg");     
     background-position: left top;
     background-repeat:no-repeat;
     background-size:cover;
@@ -42,19 +42,20 @@ body {
     margin:-320px 0px 30px 100px;     
     opacity:55% ;      
     border-radius:50%;
+    position: relative;
 }
 .img-3{
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/1004/767/609/nose-rings-hat-women-model-wallpaper-preview.jpg");    
-    /*background-attachment: fixed;*/
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/1004/767/609/nose-rings-hat-women-model-wallpaper-preview.jpg");       
     background-position: right top;
     background-repeat:no-repeat;
     background-size:cover;
     width:300px;
     height:300px;    
-    margin:-320px 0px 30px 900px;     
+    margin:-320px 0px 30px 1000px;     
     opacity:55% ;      
     border-radius:50%;    
     margin-right:25px;
+    position: absolute;
 }
 /*end-imagens*/
 
@@ -94,11 +95,11 @@ body {
     opacity:60%;
     width:155px;
     height:185px;
-    margin:10px 0px -250px 130px;    
+    margin:250px 0px -250px 130px;        
 }
 ul {
     list-style:none;
-    margin:100px 50px 25px 0px ;
+    margin:-150px 30px -230px 10px ;          
 }
 nav {
     width:100%;
@@ -109,15 +110,19 @@ nav {
     font-size:25px; 
     font-family: 'Sintony', sans-serif;   
     line-height:30px;
-    letter-spacing:2px;
+    letter-spacing:2px;    
+    padding:0px;
+    margin:400px 0px 0px -20px;
+    
 }
 nav ul li {
-    padding:8px;
+  
     width:100%;
+   
 }
 nav ul li a {   
     color:#3b3d3f;  
-    position: relative;
+    position: relative; 
 }
 a:hover {
     text-decoration: none;    
@@ -132,20 +137,35 @@ li:hover{
     letter-spacing:5px;    
 }
 .jumbotron{
-    background-color: #212529;
-    opacity:95%;
-    margin-top:10px;
-    text-align: center;   
+    background-color: #212529;    
+    margin-top:5px;
+    text-align:center;   
     color:#58595a;
-    border:2px solid #1f2327 ;
+    border:1px solid #3b3d3f ;
     font-family: 'Rufina', serif;
-    margin-bottom:5px;
+    margin-bottom:2px;
 }
 .jumbotron h2{
     text-transform: uppercase;
+    margin:-40px 0px 30px 0px;   
+       
+}
+.jumbotron P {
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding:7px 0px 0px 40px;
+    margin: 12px  500px 0px 395px;
+    font-size:16px;     
+}
+.jumbotron P:hover {
+    line-height:-15px;
+    letter-spacing:2px;
+    color:#9b9da0 ; 
+    cursor: pointer;  
 }
 .traso-vert{ 
-    background-color:#58595a; 
+    background-color:#3b3d3f; 
     width:2px;
     height:100%;
     float:right;
