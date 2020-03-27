@@ -39,11 +39,9 @@ body {
     background-size:cover;
     width:300px;
     height:300px;    
-    margin:-320px 0px 0px 100px;     
-    opacity:55% ; 
-    position: fixed; 
+    margin:-320px 0px 30px 100px;     
+    opacity:55% ;      
     border-radius:50%;
-    padding-left:0px;
 }
 .img-3{
     background-image: url("https://p4.wallpaperbetter.com/wallpaper/1004/767/609/nose-rings-hat-women-model-wallpaper-preview.jpg");    
@@ -53,11 +51,9 @@ body {
     background-size:cover;
     width:300px;
     height:300px;    
-    margin:-320px 0px 0px 930px;     
-    opacity:55% ;  
-    position:fixed;
-    border-radius:50%;
-    padding-left:30px;   
+    margin:-320px 0px 30px 930px;     
+    opacity:55% ;      
+    border-radius:50%;    
 }
 /*end-imagens*/
 
@@ -156,13 +152,15 @@ li:hover{
 }
 .col-lg-9 {
     padding-left:5px;
-    padding-right: 0px;
+    padding-right: 0px;   
 }
 .col-lg-3 {
     padding-left: 0px;
     padding-right:5px;
+   
 }
 .imgs {
+    padding-top:60px;
     margin:0px;
-    padding:0px;
+    
 }
