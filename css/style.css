@@ -55,14 +55,17 @@ nav ul li {
 }
 nav ul li a {
     color:#3b3d3f; 
-   
+    padding:8px;
     
 }
 a:hover {
     color:#9b9da0;
     text-decoration:none;
-    line-height:70px;
-    letter-spacing:5px;
+    }
+li:hover{
+    border:1px solid #9b9da0;           
+    line-height:20px;
+    letter-spacing:5px;    
 }
 .info_extra {
     font-family: 'Sintony', sans-serif;
