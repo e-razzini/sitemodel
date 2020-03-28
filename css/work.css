@@ -122,28 +122,41 @@ li:hover{
           padding: 0px 0px 30px 0px;
       }
       .icon img {
-          margin:16px 0px 224px 130px; 
-          padding:0px;   
+          width:100px;
+          height:135px;
+          margin:9px 0px 209px 155px; 
+            
       }
       .info {
           padding:3px 12px 6px 1px;
-          margin:-224px 1px 144px 12px;
+          margin:-246px 15px -10px 12px;
       }
       .info_extra {
-          margin:218px 0px 200px 0px;
+          margin:197px 0px 0px 0px;
           
       }
       ul   {
         margin:-194px 0px 0px -40px;
       }
+      nav{
+          margin: 4px 0px 0px 0px;          
+      }
+      li  a {
+        margin: 0px -4px 0px 0px;
+        padding: 4px 8px 8px 8px;
+      }
       /* fim posição do cabeçario */
       .img {
-          margin: 25px 0 15px 63px;
+        margin: 7px 0 9px 15%;
+
       }
       .traso-vert{
           display: none;
       }
-      .jumbotron h2{
-          font-size: 25px;
+      .jumbotron{        
+        width:100%;
+        height:225px;  
+        padding:3px;
       }
+     
     }

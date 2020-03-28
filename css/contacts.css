@@ -203,51 +203,52 @@ li:hover{
        padding: 0px;
       }
       .icon{       
-          padding: 0px 0px 30px 0px;
+          padding: 0px 0px 19px 0px;
       }
       .icon img {
-          margin:20px -277px 17px 125px; 
-          padding:0px;   
+        width:100px;
+        height:135px;
+        margin:1px 0px 16px 152px; 
+            
       }
       .info {
-          padding:3px 12px 6px 1px;
-          margin:-36px 1px 10px 12px;
+        padding: 1px 1px 1px 1px;
+        margin: -31px 0px 0px -9px;
       }
       .info_extra {
-          margin:200px 0px 194px 4px;
-          
+          margin:200px 0px 194px 4px;          
       }
       nav{
           padding: 0px;
       }
 
       ul   {
-        margin:-169px 0px 0px -40px;
-        
+        margin: -196px 0px 12px -51px;        
       }
       li{
-        padding: 0px;
+        padding: 10px;
       }
       /* fim posição do cabeçario */
       /* order imagens init */      
       .imgs {
-          margin:0px 0px 0px 0px;
-          padding:0px;
+        margin: -40px 0px 0px -1px;
+        
       }
       .traso-vert{
           display: none;
       }
-     .img {
-         padding: 0px;
-         margin:53px 1px 44px 56px;
+     .img-2 {
+       
+         margin:-2% 0% 2% 13%;
      }
-     .img-2{display: none;}
+     .img{display: none;}
      .img-3{display: none;}
      /* order imagens init */
      /* text init */
      .jumbotron{
-         padding: 10px;
-         margin: 5px;
+         width:100% ;
+         margin:3px;
+         height:250px;
      }
      .jumbotron h2{
       margin:10px 0px 0px 0px ;
