@@ -42,13 +42,14 @@ body {
     height:185px;
     margin:100px 0px -480px 130px;    
 }
-ul {
+ul {  
     list-style:none;
-    margin:210px 50px 200px 0px ;
+    margin:200px 30px 200px 10px ;   
 }
 nav {
-    width:90%;
-    position:absolute;
+   
+    width:100%;
+    position: absolute;;
     display:block;
     text-align:center;    
     text-transform:uppercase;
@@ -57,15 +58,14 @@ nav {
     line-height:30px;
     letter-spacing:2px;
 }
-nav ul li {
-    padding:8px;
-    width:100%;
+nav ul li {  
+    width:100%;    
+    padding:8px;        
 }
 nav ul li a {   
+    
     color:#3b3d3f;  
     position: relative;
-   
-     
 }
 a:hover {
     text-decoration: none;    
@@ -76,18 +76,18 @@ a:hover {
 }
 li:hover{
     border:1px solid #9b9da0;           
-    line-height:30px;
+    line-height:20px;
     letter-spacing:5px;    
 }
 .jumbotron{
     background-color: #212529;
     opacity:95%;
-    margin-top:10px;
+   
     text-align: center;   
     color:#58595a;
     border:2px solid #3b3d3f;
     font-family: 'Rufina', serif;
-    margin-bottom:5px;
+    margin:5px;
 }
 .jumbotron h2{
     text-transform: uppercase;
@@ -100,10 +100,51 @@ li:hover{
     margin-left:2px;    
 }
 .col-lg-9 {
-    padding-left:5px;
-    padding-right: 0px;
+    padding: 0px;
+    margin:0px;
 }
 .col-lg-3 {
-    padding-left: 0px;
-    padding-right: 5px;
+    padding: 0px;
+    margin:0px;
 }
+@media screen and (max-width:540px){
+  /*posição do cabeçario*/
+    .col-lg-3{
+       margin: 0px;
+       padding:0px;        
+    }
+    .col-lg-9 {
+        padding:0px;
+        margin:0px;
+    }
+    .icon{       
+        padding: 0px 0px 30px 0px;
+    }
+    .icon img {
+        margin:5px 0px 183px 130px; 
+        padding:0px; 
+        height:130px;
+        width:120px;  
+    }
+    .info {
+        padding:3px 0px 0px 0px;
+        margin:-210px 0px 130px 20px;
+    }
+    .info_extra {
+        margin:218px 2px 20px 2px;     
+    }
+    nav ul   {
+        margin:-194px 0px 0px -40px;    
+    }
+    /*posição do cabeçario*/    
+    .img{
+        background-position:center left;
+        
+    }
+    .img h2 {
+        font-size:34px;
+    }
+    .jumbotron {
+        margin:5px ;
+    }
+    }

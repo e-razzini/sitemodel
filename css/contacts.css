@@ -21,6 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif; 
 }
 /*init-imagens*/
+.imgs{width:100% ;}
 .img {     
     background-image: url("https://p4.wallpaperbetter.com/wallpaper/2/510/462/face-portrait-women-model-wallpaper-preview.jpg");       
     background-position: center top;
@@ -28,7 +29,7 @@ body {
     background-size:cover;
     width:300px;
     height:300px;    
-    margin:50px 0px 20px 40%;     
+    margin:50px 0px 10px 480px;     
     opacity:55% ;  
     border-radius:50%;
 }
@@ -39,7 +40,7 @@ body {
     background-size:cover;
     width:300px;
     height:300px;    
-    margin:-320px 0px 30px 100px;     
+    margin:-300px 0px 30px 50px;     
     opacity:55% ;      
     border-radius:50%;
     position: relative;
@@ -50,8 +51,9 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     width:300px;
-    height:300px;    
-    margin:-320px 0px 30px 1000px;     
+    height:300px;   
+    /*margin:-320px 0px 30px 1000px;  se acaso nao aceitar esse e´ para o site*/ 
+    margin:-320px 0px 30px 900px;     
     opacity:55% ;      
     border-radius:50%;    
     margin-right:25px;
@@ -97,11 +99,12 @@ body {
     height:185px;
     margin:250px 0px -250px 130px;        
 }
-ul {
-    list-style:none;
-    margin:-150px 30px -230px 10px ;          
+ul {    
+    list-style:none;    
+    margin: 150px 30px 0px 0px ;          
 }
-nav {
+nav {    
+    margin: 0px 0px 0px 0px;
     width:100%;
     position:absolute;
     display:block;
@@ -111,16 +114,15 @@ nav {
     font-family: 'Sintony', sans-serif;   
     line-height:30px;
     letter-spacing:2px;    
-    padding:0px;
-    margin:400px 0px 0px -20px;
     
 }
 nav ul li {
-  
-    width:100%;
+ 
+    padding: 8px;
    
 }
-nav ul li a {   
+nav ul li a {  
+    
     color:#3b3d3f;  
     position: relative; 
 }
@@ -133,17 +135,18 @@ a:hover {
 }
 li:hover{
     border:1px solid #9b9da0;           
-    line-height:30px;
+    line-height:20px;
     letter-spacing:5px;    
 }
+/*init info*/
 .jumbotron{
     background-color: #212529;    
-    margin-top:5px;
+   
     text-align:center;   
     color:#58595a;
     border:1px solid #3b3d3f ;
     font-family: 'Rufina', serif;
-    margin-bottom:2px;
+    margin:10px;
 }
 .jumbotron h2{
     text-transform: uppercase;
@@ -164,6 +167,9 @@ li:hover{
     color:#9b9da0 ; 
     cursor: pointer;  
 }
+.jumbotron a img {
+    height:80px; width:80px;float:right; margin:-96px 390px 0px 0px; opacity:25%;
+}
 .traso-vert{ 
     background-color:#3b3d3f; 
     width:2px;
@@ -182,6 +188,78 @@ li:hover{
 }
 .imgs {
     padding-top:60px;
-    margin:0px;
-    
+    margin:0px;   
+   
 }
+/*init info*/
+@media screen and (max-width:540px){
+    /*posição do cabeçario*/
+      .col-lg-3{
+         margin: 0px;
+         padding:0px;        
+      }
+      .col-lg-9 {
+       margin: 0px;
+       padding: 0px;
+      }
+      .icon{       
+          padding: 0px 0px 30px 0px;
+      }
+      .icon img {
+          margin:20px -277px 17px 125px; 
+          padding:0px;   
+      }
+      .info {
+          padding:3px 12px 6px 1px;
+          margin:-36px 1px 10px 12px;
+      }
+      .info_extra {
+          margin:200px 0px 194px 4px;
+          
+      }
+      nav{
+          padding: 0px;
+      }
+
+      ul   {
+        margin:-169px 0px 0px -40px;
+        
+      }
+      li{
+        padding: 0px;
+      }
+      /* fim posição do cabeçario */
+      /* order imagens init */      
+      .imgs {
+          margin:0px 0px 0px 0px;
+          padding:0px;
+      }
+      .traso-vert{
+          display: none;
+      }
+     .img {
+         padding: 0px;
+         margin:53px 1px 44px 56px;
+     }
+     .img-2{display: none;}
+     .img-3{display: none;}
+     /* order imagens init */
+     /* text init */
+     .jumbotron{
+         padding: 10px;
+         margin: 5px;
+     }
+     .jumbotron h2{
+      margin:10px 0px 0px 0px ;
+     }
+     .jumbotron p{         
+         margin: 0px 0px 0px 0px;
+     }
+     /*icone  */
+     .jumbotron a img{
+         margin:-80px 7px 0px 0px;
+     }
+   
+     /* text end */
+    }
+
